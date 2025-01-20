@@ -364,19 +364,83 @@ img {
   padding-left: 20px;
 }
 
-.web-project:hover .project-description {
+.web-project:hover .web-project-description {
   opacity: 1;
+}
+
+/*Projects*/
+.projects {
+  padding-top: 70px;
+  margin: 0;
+}
+
+.project-banner {
+  background-color: darkblue;
+  color: var(--white-color);
+  padding: 20px;
+}
+.project-card {
+  display: flex;
+  padding: 0;
+  margin: 30px;
+  height: 250px;
+}
+
+.project-content-img {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 50%;
+}
+
+.sql {
+  width: 50%;
+
+  border: 2px solid black;
+}
+.project-text {
+  width: 50%;
+  padding-left: 50px;
+}
+/*Contact*/
+.contact {
+  padding-top: 96px;
+  background: lightgray;
+  padding-bottom: 30px;
+}
+label {
+  display: block;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+textarea {
+  height: 160px;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: gray;
+}
+.submit {
+  font-size: 1rem;
+  background-color: gray;
+  padding: 10px;
 }
 
 /* About me */
 .about {
   background: url(img/about-bg-1.jpg) no-repeat center center/cover;
   margin-top: 40px;
+  height: 600px;
 }
 
 .about .container {
   padding-top: 30px;
-  height: 600px;
+
   overflow: hidden;
   /* border-top: 3px solid gray; */
 }
@@ -405,6 +469,10 @@ img {
   overflow: hidden;
 }
 
+.social a {
+  margin-right: 20px;
+}
+
 footer {
   text-align: center;
   padding: 5px;
@@ -412,6 +480,23 @@ footer {
 
 footer i {
   padding-right: 10px;
+}
+
+.footer {
+  background: url(img/about-bg-1.jpg) no-repeat center center/cover;
+  min-height: 400px;
+  margin-top: 30px;
+  padding-top: 50px;
+}
+
+.footer a {
+  padding: 50px;
+}
+
+/*Blog*/
+.blog {
+  padding-top: 96px;
+  min-height: 600px;
 }
 
 @media (max-width: 768px) {

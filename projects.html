@@ -63,48 +63,321 @@
             <!-- <li class="resume"><a href="#">Resume</a></li> -->
             <li><a href="projects.html">Projecten</a></li>
             <li><a href="webdevelop.html">Web Development</a></li>
+            <li><a href="blog.html">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </header>
       <section>
-        <div>
-          <div class="project-banner">
-            <h2>CarZone Opdracht</h2>
-            <p>
-              CarZone is een autohandelaar die momenteel een groei doormaakt. Om
-              deze groei inzichtelijke te maken en het bedrijf nog verder te
-              laten groeien, heeft CarZone Daat benaderd om een rapport te
-              maken. Carzone wil inzicht krijgen om hun klanten, de
-              verkoopprestaties van het personeel en de producten (de auto's).
-              Deze opdracht heb ik samen met mijn SCRUM team uitgevoerd, waarin
-              ik de rol van data-specialist speelde. We werken met Power BI,
-              DAX, SQL, Trello en SCRUM.
-            </p>
-          </div>
-          <div class="project-content">
-            <div class="project-img">
-              <img src="img/carzone-overview.png" alt="CarZone Overview" />
-              <img src="img/carzone-customer.png" alt="CarZone Custover" />
-              <img src="img/carzone-product.png" alt="CarZone product" />
-              <img
-                src="img/carzone-salesperson.png"
-                alt="CarZone-Salesperson"
-              />
+        <div class="projects">
+          <div id="CarZone" class="projects-project">
+            <div class="project-banner">
+              <div class="container">
+                <h2>CarZone Opdracht</h2>
+                <p>
+                  CarZone is een autohandelaar die momenteel een groei
+                  doormaakt. Om deze groei inzichtelijke te maken en het bedrijf
+                  nog verder te laten groeien, heeft CarZone Daat benaderd om
+                  een rapport te maken. Carzone wil inzicht krijgen om hun
+                  klanten, de verkoopprestaties van het personeel en de
+                  producten (de auto's). Deze opdracht heb ik samen met mijn
+                  SCRUM team uitgevoerd, waarin ik de rol van data-specialist
+                  speelde. We werken met Power BI, DAX, SQL, Trello en SCRUM.
+                </p>
+              </div>
             </div>
-            <div class="project-text">
-              <ul>
-                <li>Gegevenstransformatie in SQL Server</li>
-                <li>Dataset in Power BI landen</li>
-                <li>Dimensioneel modeliseren</li>
-                <li>Data visualiseren</li>
-                <li>Interactive dashboard in Power BI</li>
-                <li>DAX</li>
-              </ul>
+            <div class="project-content container">
+              <div class="project-card">
+                <div class="project-content-img">
+                  <img
+                    class="sql"
+                    src="img/CarZone-sql.png"
+                    alt="CarZone SQL"
+                  />
+                  <img
+                    class="sql"
+                    src="img/carzone-model.png"
+                    alt="CarZone Model"
+                  />
+                </div>
+                <div class="project-text">
+                  <ul>
+                    <li>Opstellen Plan van Aanpak voor het gehele project</li>
+                    <li>Definieren van userstories</li>
+                    <li>Gegevenstransformatie in SQL Server</li>
+                    <li>Dataset in Power BI landen</li>
+                    <li>Dimensioneel modeliseren</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-content-img">
+                  <img src="img/carzone-overview.png" alt="CarZone Overview" />
+                </div>
+                <div class="project-text">
+                  <ul>
+                    <li>Data visualiseren in Power BI</li>
+                    <li>Sales overzicht rapportage opbouwen</li>
+                    <li>Totale omzet voor en na toegepaste korting</li>
+                    <li>Cumulatieve verkoop dit jaar en vorig jaar</li>
+                    <li>Segmenten in Periode, Locatie en Merk/type</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-content-img">
+                  <img src="img/carzone-customer.png" alt="CarZone Custover" />
+                </div>
+                <div class="project-text">
+                  <ul>
+                    <li>Klanten rapportage opbouwen</li>
+                    <li>Top 5 klanten met barchart weergeven</li>
+                    <li>Klantkaart inrichten</li>
+                    <li>Gegeven korting over alle klanten in kaart brengen</li>
+                    <li>Segmenten in Klant, Jaar en Maand</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-content-img">
+                  <img src="img/carzone-product.png" alt="CarZone product" />
+                </div>
+                <div class="project-text">
+                  <ul>
+                    <li>Producten rapportage opbouwen</li>
+                    <li>Beste verkopende auto's met barchart weergeven</li>
+                    <li>Aantal verkochte auto's kard</li>
+                    <li>Grafiek over auto's kosten</li>
+                    <li>Segmenten in Periode, Merk en Type</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-content-img">
+                  <img
+                    src="img/carzone-salesperson.png"
+                    alt="CarZone-Salesperson"
+                  />
+                </div>
+                <div class="project-text">
+                  <ul>
+                    <li>Interactive dashboard over verkoper statistiek</li>
+                    <li>Beste presterende verkopers lijst</li>
+                    <li>Meest verkochte auto merk/type per verkoper</li>
+                    <li>Gegeven korting per verkoper</li>
+                    <li>Segmenten in Verkoper, Jaar en Maand</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="Levebsverwachting" class="projects-project">
+            <div class="project-banner">
+              <div class="container">
+                <h2>levensverwachting</h2>
+                <p>
+                  In deze dataset is de gemiddelde leeftijd van 15 landen over
+                  een periode van 217 jaar beschikbaar. De opdracht is om een
+                  rapportage te maken voor een overzicht dat een velledig beeld
+                  laten zien van de data. Daarnaast kan je met jouw rapportage
+                  analyses maken en conclusies trekken.
+                </p>
+              </div>
+            </div>
+            <div class="project-content container">
+              <div class="project-card">
+                <div class="project-content-img">
+                  <img
+                    src="img/levensverwachting.png"
+                    alt="Leversverwachting"
+                  />
+                </div>
+                <div class="project-text">
+                  <ul>
+                    <li>SQL data set koppelen met Power BI desktop</li>
+                    <li>Data opschonen in Power Query</li>
+                    <li>
+                      Interactive rapportage over een overzicht van 15 landen
+                      over een periode van 217 jaar
+                    </li>
+                    <li>Een interactieve vergelijking van twee landen</li>
+                    <li>Segmenten in Periode en Landen</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-content-img">
+                  <img
+                    src="img/levens2war.png"
+                    alt="Levensverwachting 2 wereld oorlog"
+                  />
+                </div>
+                <div class="project-text">
+                  <ul>
+                    <li>Analyses maken over de levensverwachting van land</li>
+                    <li>Segmenten in landen en periode</li>
+                    <li>
+                      EEn voorbeeld: er is een aanzienlijke dip in de
+                      levensverwachting in Duisland rond 1945
+                    </li>
+                    <li>
+                      Conclusie: de impact op de levensverwachting van Duisland
+                      ten tijde van tweede wereld oorlog
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="Bier" class="projects-project">
+            <div class="project-banner">
+              <div class="container">
+                <h2>Bierwinkel Advundum</h2>
+                <p>
+                  Gerrit heeft de eerste bierwinkel in Deventer geopend genaamd
+                  Advundum. Hij heeft zich gespecialiseerd in de bieren en heeft
+                  er dan ook ca 1200 in alle 112 stijlen op voorraad in zijn
+                  winkel. De overige bieren kan hij online voor de klanten
+                  bestellen. Hij wil zijn klanten beter van dienst zijn met hun
+                  keuze naar nieuwe bieren. Dit wil hij doen door aan de hand
+                  van een aantal vragen een biersmaak profiel voor de klanten
+                  maken en op die manier een lijst met bieren presenteren welke
+                  daaraan voldoen. Zo weet Gerrit ook welk bier hij voor de
+                  klant kan bestellen als deze niet op voorraad is. Op deze
+                  manier kan Gerrit ook meer en beter informatie verlenen aan
+                  zijn klanten over het type bier, de brouwer, het bier zelf en
+                  de vergelijking. Ook wil Gerrit een app voor wanneer hij deze
+                  informatie wil ophalen en informatie wil toevoegen als hij op
+                  dat moment geen toegang tot zijn computer heeft. Zo kan hij
+                  ten alle tijden klanten helpen, maar ook als hij een nieuw
+                  biertje ontdekt tijdens zijn vakantie in Griekenland.
+                </p>
+              </div>
+            </div>
+            <div class="project-content container">
+              <div class="project-card">
+                <div class="project-content-img">
+                  <img src="img/bier1.png" alt="Bier1" />
+                </div>
+                <div class="project-text">
+                  <ul>
+                    <li>Voorpagina van de bierwinkel</li>
+                    <li>Navigeren met twee knoppen naar andere pagina's</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-content-img">
+                  <img src="img/Bier2.png" alt="Bier2" />
+                </div>
+                <div class="project-text">
+                  <ul>
+                    <li>Algemene informatie pagina's</li>
+                    <li>Top 10 bier op basis van rating</li>
+                    <li>Top 10 brouwers</li>
+                    <li>Overzicht van alle bieren</li>
+                    <li>Segmenten in type bier, merk en brouwer</li>
+                    <li>Drill through naar de extra info over het bier</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-content-img">
+                  <img src="img/Bier3.png" alt="Bier3" />
+                </div>
+                <div class="project-text">
+                  <ul>
+                    <li>
+                      Smaakprofiel pagina. Een bier wordt gevonden op basis van
+                      het smaakprofiel
+                    </li>
+                    <li>
+                      Met 10 slicers wordt een kleine selectie bier gefilterd
+                      die passen bij de smaak van de klant.
+                    </li>
+                    <li>
+                      Zoekfuncties waar de klant kan zoeken op stijl en brouwer.
+                    </li>
+                    <li>
+                      Drill through van een gekozen bier naar de extra info over
+                      het bier
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-content-img">
+                  <img src="img/Bier4.png" alt="Bier4" />
+                </div>
+                <div class="project-text">
+                  <ul>
+                    <li>Informatie pagina over het specifieke biertje</li>
+                    <li>
+                      Gedetailleerd informatie
+                      (smaakprofiel,ranking,type,brouwer,merk,type,IBU en
+                      omschrijving)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="Artsales" class="projects-project">
+            <div class="project-banner">
+              <div class="container">
+                <h2>Artsales</h2>
+                <p>
+                  Een klant beschikt over goed georganiseerde gegevens. Om de
+                  financien te heberen voor de artiesten voor de klant willen we
+                  een financieel dashboard creeren met Power BI.
+                </p>
+              </div>
+            </div>
+            <div class="project-content container">
+              <div class="project-card">
+                <div class="project-content-img">
+                  <img src="img/artsales.png" alt="Artsales" />
+                </div>
+                <div class="project-text">
+                  <ul>
+                    <li>
+                      Interactive rapportage over de financieel overzicht van
+                      artiesten.
+                    </li>
+                    <li>
+                      Totaalbedrag, totaal gevraagde prijs, margin in kaarten
+                      brengen
+                    </li>
+                    <li>
+                      gemiddelde, maximale, minimale prijs met een ribbon chart
+                      weergeven
+                    </li>
+                    <li>Segmenten in artiesten, categorie en medium</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
+      <footer class="footer">
+        <a target="_blank" href="https://github.com/RuiyingTang"
+          ><i class="fab fa-git-square fa-2x"></i
+        ></a>
+        <a
+          target="_blank"
+          title="follow me on linkedin"
+          href="https://www.linkedin.com/in/ruiying-tang-19156b31/"
+          ><i class="fab fa-linkedin-in fa-2x"></i
+        ></a>
+        <a
+          target="_blank"
+          title="follow me on instagram"
+          href="https://www.instagram.com/yiyatanger/?hl=en"
+          ><i class="fab fa-instagram fa-2x"></i> </a
+        ><i class="far fa-envelope fa-2x"></i>ruiyingtang@hotmail.com
+      </footer>
     </main>
   </body>
 </html>
